@@ -1,6 +1,6 @@
 # [Advent of Code](https://adventofcode.com)
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/xardass/aoc/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/xardass/aoc/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/xardass/aoc/tree/main.svg?style=svg&circle-token=7aff35cc9c87c49ad47feb9a9b91c45775509ac2)](https://dl.circleci.com/status-badge/redirect/gh/xardass/aoc/tree/main)
 
 <pre>
      ┌───────────────────────────┐
