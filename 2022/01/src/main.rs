@@ -1,32 +1,7 @@
-use std::fs::OpenOptions;
-use std::io::Read;
-
+use aoc_2022_01::{part1, part2};
 fn main() {
-    let mut input_file = OpenOptions::new()
-        .read(true)
-        .open("./input/input.txt")
-        .unwrap();
+    let input = include_str!("../input/input.txt");
 
-    let mut input_buffer = String::new();
-
-    input_file.read_to_string(&mut input_buffer).unwrap();
-
-    let iter = input_buffer.split("\n\n");
-
-    let mut totals = Vec::new();
-
-    for (_i, elf) in iter.enumerate() {
-        let iter_elf = elf.split("\n");
-
-        let sum = iter_elf.fold(0, |sum, x| sum + x.parse::<u32>().unwrap());
-
-        totals.push(sum);
-    }
-
-    totals.sort();
-
-    println!("Most with 1 elf: {:?}", totals.last().unwrap());
-
-    println!("Total of top 3 elves: {:?}", &totals[totals.len() - 3..].iter().sum::<u32>());
-
+    println!("{}", part1(input));
+    println!("{}", part2(input));
 }
