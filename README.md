@@ -6,7 +6,7 @@
      ┌───────────────────────────┐
 2022 │ <a
 href="https://adventofcode.com/2022/day/1">█</a><a
-href="https://adventofcode.com/2022/day/2">.</a><a
+href="https://adventofcode.com/2022/day/2">█</a><a
 href="https://adventofcode.com/2022/day/3">.</a><a
 href="https://adventofcode.com/2022/day/4">.</a><a
 href="https://adventofcode.com/2022/day/5">.</a><a
