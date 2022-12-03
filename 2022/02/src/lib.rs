@@ -24,7 +24,8 @@ fn round_score_1(req: &str, res: &str) -> u32 {
     score
 }
 
-fn round_score_2(req: &str, res: &str) -> u32 {    let mut score: u32 = 0;
+fn round_score_2(req: &str, res: &str) -> u32 {
+    let mut score: u32 = 0;
 
     match (req, res) {
         ("A", "X") => score += 3,
@@ -48,7 +49,6 @@ fn round_score_2(req: &str, res: &str) -> u32 {    let mut score: u32 = 0;
 
     score
 }
-
 
 pub fn part1(input: &str) -> u32 {
     let mut total_score: u32 = 0;
